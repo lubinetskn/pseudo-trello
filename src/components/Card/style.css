@@ -1,0 +1,21 @@
+.card {
+  overflow: hidden;
+  height: 32px;
+  padding: 0 8px 0 8px;
+  z-index: 10;
+  color: #444;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 6px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card.active {
+  border: 1px solid darkred;
+}
